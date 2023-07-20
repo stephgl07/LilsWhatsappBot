@@ -32,10 +32,10 @@ Este proyecto es un script de Python que utiliza la biblioteca Selenium para cre
 
 ### Configuración
 
-- Abre el archivo `comandos.py` y define los comandos y sus respuestas según tus necesidades. Por ejemplo:
+- Abre el archivo `commands.py` y define los comandos y sus respuestas según tus necesidades. Por ejemplo:
 
 ```python 
-# comandos.py
+# commands.py
 
 COMANDOS_RESPUESTAS = {
     'sustito': 'BooOoOoO Ctm',
@@ -55,7 +55,7 @@ grupo = "Nombre del Grupo"  # Reemplaza con el nombre de tu grupo
 
 ### Ejecución
 
-Abre una terminal o símbolo del sistema en la ubicación del proyecto donde se encuentran los archivos bot.py y comandos.py.
+Abre una terminal o símbolo del sistema en la ubicación del proyecto donde se encuentran los archivos bot.py y commands.py.
 
 Ejecuta el script bot.py usando el comando:
 
@@ -71,7 +71,7 @@ Una vez que hayas iniciado sesión, el bot buscará el grupo configurado y estar
 
 Cuando envíes un mensaje en el grupo que comience con un asterisco ("*"), el bot interpretará ese mensaje como un comando y responderá automáticamente con la respuesta predefinida correspondiente. Si el comando no es reconocido, el bot enviará un mensaje indicando que el comando no es válido.
 
-Puedes modificar los comandos y sus respuestas en el archivo comandos.py sin necesidad de modificar el archivo principal bot.py. Esto facilita la personalización del bot según tus preferencias.
+Puedes modificar los comandos y sus respuestas en el archivo commands.py sin necesidad de modificar el archivo principal bot.py. Esto facilita la personalización del bot según tus preferencias.
 
 ### Advertencia
 

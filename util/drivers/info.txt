@@ -1,2 +1,0 @@
-Google Chrome version required = 110.0.5481.78
-ChromeDriver version required = 110.0.5481.77
